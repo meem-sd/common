@@ -1,13 +1,13 @@
 {
   "name": "@meemsd/common",
   "version": "1.0.4",
-  "main": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "files": [
     "./build/**/*"
   ],
   "scripts": {
-    "clean": "del ./build/**/*",
+    "clean": "del build/*",
     "build": "tsc"
   },
   "keywords": [],
